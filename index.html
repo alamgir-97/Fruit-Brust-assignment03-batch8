@@ -96,11 +96,10 @@
   </header>
   <main>
 
-
-
+<div class="max-w-screen-xl mx-auto relative"> 
     <!-- Banner Section -->
-
     <section class="max-w-screen-xl mx-auto h-2/5 mt-12">
+      
       <div class="carousel w-full">
         <!-- Slide-1 -->
         <div id="slide1" class="carousel-item relative w-full">
@@ -138,13 +137,16 @@
     </section>
 
     <!-- Banner Top Text -->
+    <div class="max-w-screen-xl mx-auto absolute top-0 left-0 h-2/5">
+      <!-- absolute transform -translate-y-1/2 left-5 right-5 top-1/2  w-3/4  -->
     <section
-      class="max-w-screen-xl mx-auto h-32 mt-12 bg-transparent absolute hidden md:flex lg:flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 flex-col z-10 w-3/4 ">
+      class="max-w-screen-xl mx-auto h-32 mt-12 bg-transparent hidden md:flex lg:flex flex-col justify-between  z-10 ">
       <h1 class="text-7xl text-center font-extrabold text-white mb-6">Exotic tastes at your <br>
         doorstep</h1>
       <p class="text-xl text-center font-medium text-white mb-6">We supply high quality organic products</p>
       <div class="self-center"><button class="btn">Button</button></div>
     </section>
+  </div></div>
 
 
     <!-- Banner Bonus Section -->    
@@ -203,15 +205,15 @@
       </div>
 
     </section>
+  
     
 
     <!-- Deal of the Day Section -->
-    <section class="max-w-screen-xl mx-auto flex flex-col justify-center items-center border border-base-900 mt-96">
+    <section class="max-w-screen-xl mx-auto flex flex-col justify-center items-center mt-96">
       <section class="max-w-screen-xl mx-auto flex flex-col justify-center items-center ">
         <!-- Deal of the day top portion started-->
         <div class="max-w-screen-xl mx-auto flex flex-col md:flex-col lg:flex-row gap-5">
           <!-- Deal of the day top left portion started -->
-
           <div class="flex-1 flex flex-row bg-red-40">
             <div class="flex flex-col justify-center md:justify-center lg:justify-start px-4">
               <h2 class="text-5xl text-center md:text-center lg:text-left font-extrabold mb-6">Deal of the day</h2>
